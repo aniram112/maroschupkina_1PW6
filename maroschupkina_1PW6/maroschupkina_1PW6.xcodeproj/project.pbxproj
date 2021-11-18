@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		573D38C8D8A0084003E4A217 /* Pods_maroschupkina_1PW6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DEEC9AA00368F5018DC88F /* Pods_maroschupkina_1PW6.framework */; };
 		7E76FC9927467A8E00014368 /* MyLogger2 in Frameworks */ = {isa = PBXBuildFile; productRef = 7E76FC9827467A8E00014368 /* MyLogger2 */; };
+		7E76FC9E27468BD100014368 /* MyLogger3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76FC9D27468BD100014368 /* MyLogger3.framework */; };
+		7E76FC9F27468BD100014368 /* MyLogger3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76FC9D27468BD100014368 /* MyLogger3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7E82FC5C2746674400AF14F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E82FC5B2746674400AF14F3 /* AppDelegate.swift */; };
 		7E82FC5E2746674400AF14F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E82FC5D2746674400AF14F3 /* SceneDelegate.swift */; };
 		7E82FC602746674400AF14F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E82FC5F2746674400AF14F3 /* ViewController.swift */; };
@@ -43,6 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7E76FC9F27468BD100014368 /* MyLogger3.framework in Embed Frameworks */,
 				7EB1C126274671CF008F2976 /* MyLogger1.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -54,6 +57,7 @@
 		61DEEC9AA00368F5018DC88F /* Pods_maroschupkina_1PW6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maroschupkina_1PW6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		732AE742DADD5C31BEE8DD3E /* Pods-maroschupkina_1PW6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maroschupkina_1PW6.release.xcconfig"; path = "Target Support Files/Pods-maroschupkina_1PW6/Pods-maroschupkina_1PW6.release.xcconfig"; sourceTree = "<group>"; };
 		7E76FC9527467A7F00014368 /* MyLogger2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyLogger2; path = ../MyLogger2; sourceTree = "<group>"; };
+		7E76FC9D27468BD100014368 /* MyLogger3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyLogger3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E82FC582746674400AF14F3 /* maroschupkina_1PW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maroschupkina_1PW6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E82FC5B2746674400AF14F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E82FC5D2746674400AF14F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E76FC9E27468BD100014368 /* MyLogger3.framework in Frameworks */,
 				7EB1C125274671CF008F2976 /* MyLogger1.framework in Frameworks */,
 				7E76FC9927467A8E00014368 /* MyLogger2 in Frameworks */,
 				573D38C8D8A0084003E4A217 /* Pods_maroschupkina_1PW6.framework in Frameworks */,
@@ -86,7 +91,6 @@
 				EB834C32A98EED5278B03033 /* Pods-maroschupkina_1PW6.debug.xcconfig */,
 				732AE742DADD5C31BEE8DD3E /* Pods-maroschupkina_1PW6.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -136,6 +140,7 @@
 		7EB1C124274671CF008F2976 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E76FC9D27468BD100014368 /* MyLogger3.framework */,
 				61DEEC9AA00368F5018DC88F /* Pods_maroschupkina_1PW6.framework */,
 			);
 			name = Frameworks;
