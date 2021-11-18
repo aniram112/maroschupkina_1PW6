@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		573D38C8D8A0084003E4A217 /* Pods_maroschupkina_1PW6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DEEC9AA00368F5018DC88F /* Pods_maroschupkina_1PW6.framework */; };
+		7E76FC9927467A8E00014368 /* MyLogger2 in Frameworks */ = {isa = PBXBuildFile; productRef = 7E76FC9827467A8E00014368 /* MyLogger2 */; };
 		7E82FC5C2746674400AF14F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E82FC5B2746674400AF14F3 /* AppDelegate.swift */; };
 		7E82FC5E2746674400AF14F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E82FC5D2746674400AF14F3 /* SceneDelegate.swift */; };
 		7E82FC602746674400AF14F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E82FC5F2746674400AF14F3 /* ViewController.swift */; };
@@ -49,6 +51,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		61DEEC9AA00368F5018DC88F /* Pods_maroschupkina_1PW6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maroschupkina_1PW6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		732AE742DADD5C31BEE8DD3E /* Pods-maroschupkina_1PW6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maroschupkina_1PW6.release.xcconfig"; path = "Target Support Files/Pods-maroschupkina_1PW6/Pods-maroschupkina_1PW6.release.xcconfig"; sourceTree = "<group>"; };
+		7E76FC9527467A7F00014368 /* MyLogger2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyLogger2; path = ../MyLogger2; sourceTree = "<group>"; };
 		7E82FC582746674400AF14F3 /* maroschupkina_1PW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maroschupkina_1PW6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E82FC5B2746674400AF14F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E82FC5D2746674400AF14F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +63,7 @@
 		7E82FC672746674600AF14F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E82FC692746674600AF14F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB1C11B274671B0008F2976 /* MyLogger1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyLogger1.xcodeproj; path = ../MyLogger1/MyLogger1.xcodeproj; sourceTree = "<group>"; };
+		EB834C32A98EED5278B03033 /* Pods-maroschupkina_1PW6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maroschupkina_1PW6.debug.xcconfig"; path = "Target Support Files/Pods-maroschupkina_1PW6/Pods-maroschupkina_1PW6.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,19 +72,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EB1C125274671CF008F2976 /* MyLogger1.framework in Frameworks */,
+				7E76FC9927467A8E00014368 /* MyLogger2 in Frameworks */,
+				573D38C8D8A0084003E4A217 /* Pods_maroschupkina_1PW6.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EC8BDAE37583B82FD75E66E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB834C32A98EED5278B03033 /* Pods-maroschupkina_1PW6.debug.xcconfig */,
+				732AE742DADD5C31BEE8DD3E /* Pods-maroschupkina_1PW6.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7E82FC4F2746674300AF14F3 = {
 			isa = PBXGroup;
 			children = (
+				7E76FC9527467A7F00014368 /* MyLogger2 */,
 				7EB1C11B274671B0008F2976 /* MyLogger1.xcodeproj */,
 				7E82FC5A2746674400AF14F3 /* maroschupkina_1PW6 */,
 				7E82FC592746674400AF14F3 /* Products */,
 				7EB1C124274671CF008F2976 /* Frameworks */,
+				3EC8BDAE37583B82FD75E66E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +136,7 @@
 		7EB1C124274671CF008F2976 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				61DEEC9AA00368F5018DC88F /* Pods_maroschupkina_1PW6.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,16 +148,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E82FC6C2746674600AF14F3 /* Build configuration list for PBXNativeTarget "maroschupkina_1PW6" */;
 			buildPhases = (
+				63C83BC401E1A22FB78B8874 /* [CP] Check Pods Manifest.lock */,
 				7E82FC542746674400AF14F3 /* Sources */,
 				7E82FC552746674400AF14F3 /* Frameworks */,
 				7E82FC562746674400AF14F3 /* Resources */,
 				7EB1C127274671CF008F2976 /* Embed Frameworks */,
+				BB13101E97F7DA61E8837071 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = maroschupkina_1PW6;
+			packageProductDependencies = (
+				7E76FC9827467A8E00014368 /* MyLogger2 */,
+			);
 			productName = maroschupkina_1PW6;
 			productReference = 7E82FC582746674400AF14F3 /* maroschupkina_1PW6.app */;
 			productType = "com.apple.product-type.application";
@@ -208,6 +234,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63C83BC401E1A22FB78B8874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-maroschupkina_1PW6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB13101E97F7DA61E8837071 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-maroschupkina_1PW6/Pods-maroschupkina_1PW6-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-maroschupkina_1PW6/Pods-maroschupkina_1PW6-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-maroschupkina_1PW6/Pods-maroschupkina_1PW6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E82FC542746674400AF14F3 /* Sources */ = {
@@ -360,6 +428,7 @@
 		};
 		7E82FC6D2746674600AF14F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB834C32A98EED5278B03033 /* Pods-maroschupkina_1PW6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -380,6 +449,7 @@
 		};
 		7E82FC6E2746674600AF14F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732AE742DADD5C31BEE8DD3E /* Pods-maroschupkina_1PW6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +490,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E76FC9827467A8E00014368 /* MyLogger2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLogger2;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7E82FC502746674300AF14F3 /* Project object */;
 }
