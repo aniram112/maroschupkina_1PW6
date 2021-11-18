@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="maroschupkina_1PW6" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GfI-fq-btc">
+                                <rect key="frame" x="116.5" y="313" width="181" height="280"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87K-Al-ErF">
+                                        <rect key="frame" x="0.0" y="0.0" width="181" height="47"/>
+                                        <color key="backgroundColor" red="0.23569169749999999" green="1" blue="0.68572027030000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="181" id="UFT-Xs-3vO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                        <state key="normal" title="Framework">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" red="0.082064299019999995" green="0.4407194472" blue="0.30274959080000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5V-Kg-Eye">
+                                        <rect key="frame" x="0.0" y="233" width="181" height="47"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="181" id="9Jh-g9-jnN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                        <state key="normal" title="Carthage">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" red="0.082064299019999995" green="0.4407194472" blue="0.30274959080000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuW-4d-2Ni">
+                                        <rect key="frame" x="0.0" y="156" width="181" height="47"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="181" id="esl-0a-btv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                        <state key="normal" title="Pod">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" red="0.082064299019999995" green="0.4407194472" blue="0.30274959080000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9w-mO-CeH">
+                                        <rect key="frame" x="0.0" y="75" width="181" height="47"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="181" id="yMn-IM-4l2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                        <state key="normal" title="Package">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" red="0.082064299019999995" green="0.4407194472" blue="0.30274959080000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="E5V-Kg-Eye" firstAttribute="centerX" secondItem="GfI-fq-btc" secondAttribute="centerX" id="45H-XD-cIT"/>
+                                    <constraint firstItem="uuW-4d-2Ni" firstAttribute="top" secondItem="i9w-mO-CeH" secondAttribute="bottom" constant="34" id="IDQ-3v-HqJ"/>
+                                    <constraint firstItem="i9w-mO-CeH" firstAttribute="top" secondItem="87K-Al-ErF" secondAttribute="bottom" constant="28" id="Jmt-6c-J9N"/>
+                                    <constraint firstItem="E5V-Kg-Eye" firstAttribute="top" secondItem="uuW-4d-2Ni" secondAttribute="bottom" constant="30" id="LXM-NB-W2m"/>
+                                    <constraint firstAttribute="height" constant="280" id="Mlt-Os-DfP"/>
+                                    <constraint firstItem="uuW-4d-2Ni" firstAttribute="centerX" secondItem="GfI-fq-btc" secondAttribute="centerX" id="O9d-xO-q67"/>
+                                    <constraint firstItem="87K-Al-ErF" firstAttribute="top" secondItem="GfI-fq-btc" secondAttribute="top" id="jJY-OQ-JSe"/>
+                                    <constraint firstItem="87K-Al-ErF" firstAttribute="centerX" secondItem="GfI-fq-btc" secondAttribute="centerX" id="nUA-H2-FIq"/>
+                                    <constraint firstItem="i9w-mO-CeH" firstAttribute="centerX" secondItem="GfI-fq-btc" secondAttribute="centerX" id="rzR-wQ-kSO"/>
+                                    <constraint firstAttribute="width" constant="181" id="uoU-Uy-TZO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GfI-fq-btc" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="JAM-fb-Apo"/>
+                            <constraint firstItem="GfI-fq-btc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SLF-61-ODa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="carthageButton" destination="E5V-Kg-Eye" id="8N0-nA-7x2"/>
+                        <outlet property="frameworkButton" destination="87K-Al-ErF" id="dv7-zd-eRY"/>
+                        <outlet property="packageButton" destination="i9w-mO-CeH" id="Umb-Iv-zyp"/>
+                        <outlet property="podButton" destination="uuW-4d-2Ni" id="fmb-ND-5wi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
