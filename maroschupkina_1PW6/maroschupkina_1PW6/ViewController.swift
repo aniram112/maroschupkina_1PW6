@@ -9,7 +9,7 @@ import UIKit
 import MyLogger1
 import MyLogger2
 import MyLogger3
-import MyLogger4
+// import MyLogger4
 
 class ViewController: UIViewController {
     @IBOutlet weak var frameworkButton: UIButton!

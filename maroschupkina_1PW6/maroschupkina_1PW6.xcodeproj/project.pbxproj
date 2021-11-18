@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		573D38C8D8A0084003E4A217 /* Pods_maroschupkina_1PW6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DEEC9AA00368F5018DC88F /* Pods_maroschupkina_1PW6.framework */; };
 		7E76FC9927467A8E00014368 /* MyLogger2 in Frameworks */ = {isa = PBXBuildFile; productRef = 7E76FC9827467A8E00014368 /* MyLogger2 */; };
-		7E76FC9E27468BD100014368 /* MyLogger3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76FC9D27468BD100014368 /* MyLogger3.framework */; };
-		7E76FC9F27468BD100014368 /* MyLogger3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76FC9D27468BD100014368 /* MyLogger3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7E82FC5C2746674400AF14F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E82FC5B2746674400AF14F3 /* AppDelegate.swift */; };
 		7E82FC5E2746674400AF14F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E82FC5D2746674400AF14F3 /* SceneDelegate.swift */; };
 		7E82FC602746674400AF14F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E82FC5F2746674400AF14F3 /* ViewController.swift */; };
@@ -45,7 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7E76FC9F27468BD100014368 /* MyLogger3.framework in Embed Frameworks */,
 				7EB1C126274671CF008F2976 /* MyLogger1.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -75,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E76FC9E27468BD100014368 /* MyLogger3.framework in Frameworks */,
 				7EB1C125274671CF008F2976 /* MyLogger1.framework in Frameworks */,
 				7E76FC9927467A8E00014368 /* MyLogger2 in Frameworks */,
 				573D38C8D8A0084003E4A217 /* Pods_maroschupkina_1PW6.framework in Frameworks */,
