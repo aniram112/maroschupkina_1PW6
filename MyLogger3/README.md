@@ -21,8 +21,7 @@ pod 'MyLogger3'
 ```
 
 ## Author
-
-eduaniram112, masyakmarina@gmail.com
+aniram112
 
 ## License
 
